@@ -1,0 +1,11 @@
+! Species         Shape    LJ-depth  LJ-diam   DiplMom   Polzblty  RotRelaxNum Data     
+! Name            Index    epsilon/k_B sigma     mu        alpha     Zrot      Source   
+N2                  1      97.530     3.621     0.000     1.760     4.000    ! GRI-Mech
+Ar                  0     136.501     3.330     0.000     0.000     0.000    ! GRI-Mech
+He                  0      10.200     2.576     0.000     0.000     0.000    ! NOx2018
+Ne                  0     148.600     3.758     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
+HXD13(1)            2     395.658     5.997     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=513.84 K, Pc=34.6 bar (from Joback method)
+CH4(2)              2     141.400     3.746     0.000     2.600    13.000    ! GRI-Mech
+H2(3)               1      38.000     2.920     0.000     0.790   280.000    ! GRI-Mech
+C6H10(20)           2     406.008     6.026     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=527.28 K, Pc=35.01 bar (from Joback method)
+C6H10(7)            2     412.387     5.847     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=535.57 K, Pc=38.92 bar (from Joback method)
