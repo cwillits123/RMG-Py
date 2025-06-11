@@ -70,7 +70,7 @@ options(
     generateSeedEachIteration=True,
     generateOutputHTML=False,
     saveSeedToDatabase=False,
-    generatePlots=True,
+    generatePlots=False,
     saveSimulationProfiles=False,
     saveEdgeSpecies=False,
 )
